@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url('../img/imagen1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: #ff8c00;
+  margin-top: 20px;
+}
+h2 {
+  color: #ff8c00;
+  margin-top: 10px;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+header img {
+  width: 100px;
+}
+
+nav.navbar {
+  margin-top: 15px;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff8c00;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 90%;
+  margin: 80px auto 0; /* Añadir margen superior para evitar la superposición con el navbar fijo */
+}
+
+label, input, select, textarea {
+  color: #e06c00
+}
+
+.form-control, .form-check-input, .form-check-label {
+  margin-bottom: 15px;
+}
+
+button.btn {
+  background-color: #ff8c00;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  color: white;
+}
+
+button.btn:hover {
+  background-color: #e07b00;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}
+
+.footer-figure {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.footer-figure img {
+  width: 100px;
+}
+
+.footer-text {
+  margin-top: 10px;
+}
+
+.table {
+  background: rgba(255, 255, 255, 0.9);
+  color: #000000;
+}
+
+.table th {
+  background-color: #ff8c00;
+  color: white;
+  text-align: center;
+}
+.table td {
+  padding: 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+select.form-control {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+}
+

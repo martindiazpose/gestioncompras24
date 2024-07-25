@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.indexbody {
+  background-image: url('../img/imagen1.jpg'); /* Ajusta la ruta según sea necesario */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  color: #ff8c00; /* Color naranja */
+  margin-top: 20px;
+}
+
+.contenedor__todo {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+  top: 50px;
+}
+
+.caja__trasera {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Caja trasera transparente */
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.caja__trasera-register, .formulario__login {
+  width: 100%;
+}
+
+.caja__trasera-register h3, .formulario__login h2 {
+  text-align: center;
+}
+
+.caja__trasera-register a, .formulario__login button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #ff8c00;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none; /* Remove border for button */
+}
+
+.caja__trasera-register a:hover, .formulario__login button:hover {
+  background-color: #e07b00;
+}
+
+.formulario__login {
+  background-color: rgba(0, 0, 0, 0.5); /* Mismo estilo que caja trasera */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Espacio inferior entre formularios */
+}
+
+.formulario__login label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formulario__login input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+  color: black; /* Texto negro para mejor legibilidad */
+}
+
+.formulario__login input::placeholder {
+  color: #666; /* Color del placeholder para mejor legibilidad */
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}
+
+.footer-figure {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.footer-figure img {
+  width: 100px;
+}
+
+.footer-text {
+  margin-top: 10px;
+}

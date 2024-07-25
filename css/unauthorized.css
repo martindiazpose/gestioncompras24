@@ -1,0 +1,55 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+  
+body {
+    background-image: url('../img/imagen1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white; /* Texto en blanco para mayor contraste */
+}
+  
+h1 {
+    text-align: center;
+    color: #ff8c00; /* Título en naranja */
+    margin-top: 80px; /* Espacio desde la parte superior */
+}
+
+.container {
+    background: rgba(17, 17, 17, 0.8); /* Contenedor con fondo naranja semi-transparente */
+    color: white; /* Texto en blanco para mayor contraste */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90%;
+    margin: 40px auto; /* Centrado vertical y horizontalmente */
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.button-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a.btn {
+    background-color: #ff8c00; /* Botón en naranja */
+    color: white; /* Texto del botón en blanco */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a.btn:hover {
+    background-color: #e07b00; /* Naranja más oscuro al pasar el ratón */
+}
